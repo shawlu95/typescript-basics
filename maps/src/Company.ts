@@ -17,4 +17,13 @@ export class Company implements Mappable {
       lng: parseFloat(faker.address.longitude()),
     };
   }
+
+  getInfo(): string {
+    return `
+      <div>
+        <h4>Company Name: ${this.companyName}</h4>
+        <p>Slogan: ${this.catchPhrase}</p>
+      </div>
+    `;
+  }
 }
