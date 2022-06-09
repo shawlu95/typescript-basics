@@ -34,3 +34,4 @@ parcel index.html
 ## Maps App
 
 - Use Faker to generate user name, location, company
+- Maps Javascript API key: `AIzaSyC0BYDHZi-qtMd0aLPwbFkQEJ9y7M1dS6Q`
