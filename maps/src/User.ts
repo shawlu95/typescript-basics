@@ -3,6 +3,8 @@ import { Mappable } from './CustomMap';
 
 export class User implements Mappable {
   name: string;
+  color: string = 'blue';
+
   location: {
     lat: number;
     lng: number;

@@ -4,6 +4,8 @@ import { Mappable } from './CustomMap';
 export class Company implements Mappable {
   companyName: string;
   catchPhrase: string;
+  color: string = 'red';
+
   location: {
     lat: number;
     lng: number;

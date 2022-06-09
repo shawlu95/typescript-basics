@@ -4,6 +4,7 @@ export interface Mappable {
     lng: number;
   };
   getInfo(): string;
+  color: string;
 }
 
 export class CustomMap {
