@@ -15,6 +15,22 @@
 ts-node features/annotations/variables.ts
 ```
 
-### Classes
+### Convention
 
-- main modifier: `public`(default), `private`, `protected`
+- Never use **default export**, confusing curly braces
+
+### Parcel
+
+- Auto-convert typescript into javascript
+
+```
+npm install -g parcel-bundler
+cd maps
+parcel index.html
+```
+
+---
+
+## Maps App
+
+- Use Faker to generate user name, location, company
